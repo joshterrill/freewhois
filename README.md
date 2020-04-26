@@ -14,7 +14,7 @@ A node client that uses the iana RDAP DNS database to lookup WHOIS information f
 const whois = require("freewhois");
 
 async function whoisLookup() {
-    const data = await whois("https://www.gooogle.com");
+    const data = await whois("https://www.google.com");
     console.log(data); // returns as json
 }
 
