@@ -2,6 +2,8 @@
 
 A node client that uses the iana RDAP DNS database to lookup WHOIS information for free.
 
+*TLD's last updated on 04/26/2020*
+
 ## Usage in code
 
 1. Install via `npm i freewhois --save`
