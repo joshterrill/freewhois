@@ -1,4 +1,4 @@
-# domaininfo
+# freewhois
 
 A node client that uses the iana RDAP DNS database to lookup WHOIS information for free.
 
