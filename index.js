@@ -13,7 +13,7 @@ function findRDAPUrl(domain) {
     }
 
     if (!dns.length) {
-        const dnsFile = fs.readFileSync("./tlds.json", "utf-8");
+        const dnsFile = fs.readFileSync(`${__dirname}/tlds.json`, "utf-8");
         dns = JSON.parse(dnsFile);
     }
 
