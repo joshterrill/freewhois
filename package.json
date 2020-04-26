@@ -1,0 +1,35 @@
+{
+    "name": "freewhois",
+    "version": "1.0.0",
+    "description": "A node client that uses the iana RDAP DNS database to lookup WHOIS information for free",
+    "main": "index.js",
+    "dependencies": {
+        "request": "^2.88.2"
+    },
+    "bin": {
+        "freewhois": "./bin/index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/joshterrill/freewhois.git"
+    },
+    "keywords": [
+        "whois",
+        "dns",
+        "free whois",
+        "dns lookup",
+        "reverse lookup",
+        "reverse dns",
+        "ip lookup",
+        "reverse ip",
+        "ip address lookup",
+        "domain whois",
+        "domain lookup"
+    ],
+    "author": "Josh Terrill",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/joshterrill/freewhois/issues"
+    },
+    "homepage": "https://github.com/joshterrill/freewhois#readme"
+}
