@@ -2,6 +2,8 @@
 
 A node client that uses the iana RDAP DNS database to lookup WHOIS information for free.
 
+TLD List comes from: https://data.iana.org/rdap/dns.json
+
 *TLD's last updated on 10/06/2020*
 
 ## Usage in code
