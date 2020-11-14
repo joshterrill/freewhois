@@ -3,6 +3,10 @@ const request = require("request");
 
 let dns = [];
 
+function trimSlash(input) {
+    return input.endsWith('/') ? input.slice(0, -1) : input;
+}
+
 function findRDAPUrl(domain) {
     if (!domain) {
         throw new Error("You must enter a domain");
@@ -17,19 +21,21 @@ function findRDAPUrl(domain) {
         dns = JSON.parse(dnsFile);
     }
 
-    const foundTld = dns.find(i => i[0][0] === tld);
+    const foundTld = dns.find(i => i[0].find(j => j === tld));
     if (!foundTld) {
         throw new Error(`Unable to find tld ${tld}`);
     }
-    const rdapUrl = foundTld[1][0];
+    const rdapUrl = trimSlash(foundTld[1][0]);
     return rdapUrl;
 }
 
 async function whois(domain) {
     return new Promise((resolve, reject) => {
-        const strippedDomain = domain.replace(/^(?:https?:\/\/)?(?:www\.)?/i, "");
+        let strippedDomain = domain.replace(/^(?:https?:\/\/)?(?:www\.)?/i, "");
+        strippedDomain = trimSlash(strippedDomain);
         const rdapUrl = findRDAPUrl(strippedDomain);
-        request.get(`${rdapUrl}/domain/${strippedDomain}`, (err, body, response) => {
+        const requestUrl = `${rdapUrl}/domain/${strippedDomain}`;
+        request.get(requestUrl, (err, body, response) => {
             if (err || response === "" || response === "''") {
                 reject(`Error making WHOIS request for domain: ${domain}`);
             } else {

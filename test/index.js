@@ -5,7 +5,13 @@ describe("freewhois tests", () => {
     it("should lookup google.com whois successfully", async () => {
         const google = await whois("google.com");
         assert.ok(google);
-        assert.strictEqual(google.ldhName, "GOOGLE.COM");
+        assert.strictEqual(google.ldhName.toUpperCase(), "GOOGLE.COM");
+    });
+
+    it("should lookup pbr.digital whois successfully", async () => {
+        const pbr = await whois("http://pbr.digital/");
+        assert.ok(pbr);
+        assert.strictEqual(pbr.ldhName.toUpperCase(), "PBR.DIGITAL");
     });
 
     it("should fail to lookup a tld that does not exist", async () => {
