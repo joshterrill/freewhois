@@ -18,7 +18,7 @@ describe("freewhois tests", () => {
         try {
             await whois("somedomain.sdfgsdjgs");
         } catch (error) {
-            assert.strictEqual(error.message, "Unable to find tld sdfgsdjgs");
+            assert.strictEqual(error.message, "Unable to find TLD: sdfgsdjgs");
         }
     });
 
