@@ -1,10 +1,25 @@
 const fs = require("fs");
-const request = require("request");
+const fetch = require("node-fetch");
 
 let dns = [];
 
+async function get(url) {
+    return new Promise(async (resolve, reject) => {
+       try {
+        const data = await fetch(url);
+        const text = await data.text();
+        if (!text || text === "" || text === "''" || text === "{}") {
+            reject(`Error making WHOIS request for domain: ${url}`);
+        }
+        resolve(JSON.parse(text));
+       } catch (error) {
+        reject(error);
+       }
+    });
+}
+
 function trimSlash(input) {
-    return input.endsWith('/') ? input.slice(0, -1) : input;
+    return input.endsWith("/") ? input.slice(0, -1) : input;
 }
 
 function findRDAPUrl(domain) {
@@ -23,25 +38,23 @@ function findRDAPUrl(domain) {
 
     const foundTld = dns.find(i => i[0].find(j => j === tld));
     if (!foundTld) {
-        throw new Error(`Unable to find tld ${tld}`);
+        throw new Error(`Unable to find TLD: ${tld}`);
     }
     const rdapUrl = trimSlash(foundTld[1][0]);
     return rdapUrl;
 }
 
 async function whois(domain) {
-    return new Promise((resolve, reject) => {
-        let strippedDomain = domain.replace(/^(?:https?:\/\/)?(?:www\.)?/i, "");
-        strippedDomain = trimSlash(strippedDomain);
-        const rdapUrl = findRDAPUrl(strippedDomain);
-        const requestUrl = `${rdapUrl}/domain/${strippedDomain}`;
-        request.get(requestUrl, (err, body, response) => {
-            if (err || response === "" || response === "''") {
-                reject(`Error making WHOIS request for domain: ${domain}`);
-            } else {
-                resolve(JSON.parse(response));
-            }
-        });
+    return new Promise(async (resolve, reject) => {
+        try {
+            const strippedDomain = trimSlash(domain.replace(/^(?:https?:\/\/)?(?:www\.)?/i, ""));
+            const rdapUrl = findRDAPUrl(strippedDomain);
+            const requestUrl = `${rdapUrl}/domain/${strippedDomain}`;
+            const response = await get(requestUrl);
+            resolve(response);
+        } catch (error) {
+            reject(error || `Error making WHOIS request for domain: ${domain}`);
+        }
     });
     
 }
