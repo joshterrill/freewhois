@@ -70,22 +70,6 @@
     ],
     [
         [
-            "abbvie"
-        ],
-        [
-            "https://rdap.afilias-srs.net/rdap/abbvie/"
-        ]
-    ],
-    [
-        [
-            "aco"
-        ],
-        [
-            "https://rdap.afilias-srs.net/rdap/aco/"
-        ]
-    ],
-    [
-        [
             "agakhan"
         ],
         [
@@ -166,14 +150,6 @@
     ],
     [
         [
-            "autos"
-        ],
-        [
-            "https://rdap.afilias-srs.net/rdap/autos/"
-        ]
-    ],
-    [
-        [
             "avianca"
         ],
         [
@@ -222,14 +198,6 @@
     ],
     [
         [
-            "boats"
-        ],
-        [
-            "https://rdap.afilias-srs.net/rdap/boats/"
-        ]
-    ],
-    [
-        [
             "boehringer"
         ],
         [
@@ -246,34 +214,10 @@
     ],
     [
         [
-            "case"
-        ],
-        [
-            "https://rdap.afilias-srs.net/rdap/case/"
-        ]
-    ],
-    [
-        [
-            "caseih"
-        ],
-        [
-            "https://rdap.afilias-srs.net/rdap/caseih/"
-        ]
-    ],
-    [
-        [
             "cbs"
         ],
         [
             "https://rdap.afilias-srs.net/rdap/cbs/"
-        ]
-    ],
-    [
-        [
-            "ceb"
-        ],
-        [
-            "https://rdap.afilias-srs.net/rdap/ceb/"
         ]
     ],
     [
@@ -470,14 +414,6 @@
     ],
     [
         [
-            "gea"
-        ],
-        [
-            "https://rdap.afilias-srs.net/rdap/gea/"
-        ]
-    ],
-    [
-        [
             "global"
         ],
         [
@@ -550,14 +486,6 @@
     ],
     [
         [
-            "homes"
-        ],
-        [
-            "https://rdap.afilias-srs.net/rdap/homes/"
-        ]
-    ],
-    [
-        [
             "hughes"
         ],
         [
@@ -610,22 +538,6 @@
         ],
         [
             "https://rdap.afilias-srs.net/rdap/itv/"
-        ]
-    ],
-    [
-        [
-            "iveco"
-        ],
-        [
-            "https://rdap.afilias-srs.net/rdap/iveco/"
-        ]
-    ],
-    [
-        [
-            "jcp"
-        ],
-        [
-            "https://rdap.afilias-srs.net/rdap/jcp/"
         ]
     ],
     [
@@ -770,22 +682,6 @@
         ],
         [
             "https://rdap.afilias-srs.net/rdap/mormon/"
-        ]
-    ],
-    [
-        [
-            "motorcycles"
-        ],
-        [
-            "https://rdap.afilias-srs.net/rdap/motorcycles/"
-        ]
-    ],
-    [
-        [
-            "newholland"
-        ],
-        [
-            "https://rdap.afilias-srs.net/rdap/newholland/"
         ]
     ],
     [
@@ -958,14 +854,6 @@
     ],
     [
         [
-            "schaeffler"
-        ],
-        [
-            "https://rdap.afilias-srs.net/rdap/schaeffler/"
-        ]
-    ],
-    [
-        [
             "scholarships"
         ],
         [
@@ -994,14 +882,6 @@
         ],
         [
             "https://rdap.afilias-srs.net/rdap/showtime/"
-        ]
-    ],
-    [
-        [
-            "shriram"
-        ],
-        [
-            "https://rdap.afilias-srs.net/rdap/shriram/"
         ]
     ],
     [
@@ -1214,14 +1094,6 @@
     ],
     [
         [
-            "yachts"
-        ],
-        [
-            "https://rdap.afilias-srs.net/rdap/yachts/"
-        ]
-    ],
-    [
-        [
             "zara"
         ],
         [
@@ -1414,6 +1286,14 @@
     ],
     [
         [
+            "watches"
+        ],
+        [
+            "https://rdap.afilias.net/rdap/watches/"
+        ]
+    ],
+    [
+        [
             "xn--5tzm5g"
         ],
         [
@@ -1462,6 +1342,22 @@
     ],
     [
         [
+            "auto"
+        ],
+        [
+            "https://rdap.centralnic.com/auto/"
+        ]
+    ],
+    [
+        [
+            "autos"
+        ],
+        [
+            "https://rdap.centralnic.com/autos/"
+        ]
+    ],
+    [
+        [
             "baby"
         ],
         [
@@ -1482,6 +1378,14 @@
         ],
         [
             "https://rdap.centralnic.com/basketball/"
+        ]
+    ],
+    [
+        [
+            "beauty"
+        ],
+        [
+            "https://rdap.centralnic.com/beauty/"
         ]
     ],
     [
@@ -1510,6 +1414,14 @@
     ],
     [
         [
+            "boats"
+        ],
+        [
+            "https://rdap.centralnic.com/boats/"
+        ]
+    ],
+    [
+        [
             "bond"
         ],
         [
@@ -1526,10 +1438,42 @@
     ],
     [
         [
+            "car"
+        ],
+        [
+            "https://rdap.centralnic.com/car/"
+        ]
+    ],
+    [
+        [
+            "cars"
+        ],
+        [
+            "https://rdap.centralnic.com/cars/"
+        ]
+    ],
+    [
+        [
+            "case"
+        ],
+        [
+            "https://rdap.centralnic.com/case/"
+        ]
+    ],
+    [
+        [
             "ceo"
         ],
         [
             "https://rdap.centralnic.com/ceo/"
+        ]
+    ],
+    [
+        [
+            "cfd"
+        ],
+        [
+            "https://rdap.centralnic.com/cfd/"
         ]
     ],
     [
@@ -1554,6 +1498,14 @@
         ],
         [
             "https://rdap.centralnic.com/cyou/"
+        ]
+    ],
+    [
+        [
+            "dealer"
+        ],
+        [
+            "https://rdap.centralnic.com/dealer/"
         ]
     ],
     [
@@ -1618,6 +1570,14 @@
         ],
         [
             "https://rdap.centralnic.com/feedback/"
+        ]
+    ],
+    [
+        [
+            "fm"
+        ],
+        [
+            "https://rdap.centralnic.com/fm/"
         ]
     ],
     [
@@ -1694,6 +1654,14 @@
     ],
     [
         [
+            "homes"
+        ],
+        [
+            "https://rdap.centralnic.com/homes/"
+        ]
+    ],
+    [
+        [
             "host"
         ],
         [
@@ -1706,6 +1674,14 @@
         ],
         [
             "https://rdap.centralnic.com/icu/"
+        ]
+    ],
+    [
+        [
+            "inc"
+        ],
+        [
+            "https://rdap.centralnic.com/inc/"
         ]
     ],
     [
@@ -1774,6 +1750,14 @@
     ],
     [
         [
+            "luxury"
+        ],
+        [
+            "https://rdap.centralnic.com/luxury/"
+        ]
+    ],
+    [
+        [
             "makeup"
         ],
         [
@@ -1798,10 +1782,10 @@
     ],
     [
         [
-            "observer"
+            "motorcycles"
         ],
         [
-            "https://rdap.centralnic.com/observer/"
+            "https://rdap.centralnic.com/motorcycles/"
         ]
     ],
     [
@@ -1862,10 +1846,10 @@
     ],
     [
         [
-            "realty"
+            "qpon"
         ],
         [
-            "https://rdap.centralnic.com/realty/"
+            "https://rdap.centralnic.com/qpon/"
         ]
     ],
     [
@@ -1906,6 +1890,14 @@
         ],
         [
             "https://rdap.centralnic.com/saarland/"
+        ]
+    ],
+    [
+        [
+            "sbs"
+        ],
+        [
+            "https://rdap.centralnic.com/sbs/"
         ]
     ],
     [
@@ -2118,6 +2110,14 @@
     ],
     [
         [
+            "yachts"
+        ],
+        [
+            "https://rdap.centralnic.com/yachts/"
+        ]
+    ],
+    [
+        [
             "zuerich"
         ],
         [
@@ -2150,6 +2150,7 @@
             "bike",
             "bingo",
             "boutique",
+            "broker",
             "builders",
             "business",
             "cab",
@@ -2229,6 +2230,7 @@
             "flights",
             "florist",
             "football",
+            "forex",
             "forsale",
             "foundation",
             "fund",
@@ -2283,6 +2285,7 @@
             "management",
             "market",
             "marketing",
+            "markets",
             "mba",
             "media",
             "memorial",
@@ -2294,6 +2297,7 @@
             "network",
             "news",
             "ninja",
+            "observer",
             "partners",
             "parts",
             "photography",
@@ -2306,6 +2310,7 @@
             "productions",
             "properties",
             "pub",
+            "realty",
             "recipes",
             "rehab",
             "reise",
@@ -2355,7 +2360,9 @@
             "tours",
             "town",
             "toys",
+            "trading",
             "training",
+            "travel",
             "university",
             "vacations",
             "ventures",
@@ -2504,6 +2511,14 @@
         ],
         [
             "https://rdap.nic.accountant/"
+        ]
+    ],
+    [
+        [
+            "aco"
+        ],
+        [
+            "https://rdap.nic.aco/"
         ]
     ],
     [
@@ -3012,14 +3027,6 @@
     ],
     [
         [
-            "dealer"
-        ],
-        [
-            "https://rdap.nic.dealer/"
-        ]
-    ],
-    [
-        [
             "dell"
         ],
         [
@@ -3196,6 +3203,14 @@
     ],
     [
         [
+            "gea"
+        ],
+        [
+            "https://rdap.nic.gea/"
+        ]
+    ],
+    [
+        [
             "giving"
         ],
         [
@@ -3216,14 +3231,6 @@
         ],
         [
             "https://rdap.nic.grainger/"
-        ]
-    ],
-    [
-        [
-            "gucci"
-        ],
-        [
-            "https://rdap.nic.gucci/"
         ]
     ],
     [
@@ -3336,14 +3343,6 @@
         ],
         [
             "https://rdap.nic.insurance/"
-        ]
-    ],
-    [
-        [
-            "intel"
-        ],
-        [
-            "https://rdap.nic.intel/"
         ]
     ],
     [
@@ -3516,14 +3515,6 @@
     ],
     [
         [
-            "luxury"
-        ],
-        [
-            "https://rdap.nic.luxury/"
-        ]
-    ],
-    [
-        [
             "madrid"
         ],
         [
@@ -3632,14 +3623,6 @@
         ],
         [
             "https://rdap.nic.moto/"
-        ]
-    ],
-    [
-        [
-            "mtn"
-        ],
-        [
-            "https://rdap.nic.mtn/"
         ]
     ],
     [
@@ -3836,14 +3819,6 @@
     ],
     [
         [
-            "pharmacy"
-        ],
-        [
-            "https://rdap.nic.pharmacy/"
-        ]
-    ],
-    [
-        [
             "philips"
         ],
         [
@@ -3904,14 +3879,6 @@
         ],
         [
             "https://rdap.nic.prudential/"
-        ]
-    ],
-    [
-        [
-            "qpon"
-        ],
-        [
-            "https://rdap.nic.qpon/"
         ]
     ],
     [
@@ -4048,6 +4015,14 @@
         ],
         [
             "https://rdap.nic.scb/"
+        ]
+    ],
+    [
+        [
+            "schaeffler"
+        ],
+        [
+            "https://rdap.nic.schaeffler/"
         ]
     ],
     [
@@ -4308,14 +4283,6 @@
     ],
     [
         [
-            "travel"
-        ],
-        [
-            "https://rdap.nic.travel/"
-        ]
-    ],
-    [
-        [
             "trust"
         ],
         [
@@ -4376,14 +4343,6 @@
         ],
         [
             "https://rdap.nic.walter/"
-        ]
-    ],
-    [
-        [
-            "watches"
-        ],
-        [
-            "https://rdap.nic.watches/"
         ]
     ],
     [
@@ -4636,14 +4595,6 @@
     ],
     [
         [
-            "yahoo"
-        ],
-        [
-            "https://rdap.nic.yahoo/"
-        ]
-    ],
-    [
-        [
             "yandex"
         ],
         [
@@ -4656,6 +4607,14 @@
         ],
         [
             "https://rdap.nic.zero/"
+        ]
+    ],
+    [
+        [
+            "abbvie"
+        ],
+        [
+            "https://rdap.nominet.uk/abbvie/"
         ]
     ],
     [
@@ -4712,6 +4671,14 @@
         ],
         [
             "https://rdap.nominet.uk/bbc/"
+        ]
+    ],
+    [
+        [
+            "bbva"
+        ],
+        [
+            "https://rdap.nominet.uk/bbva/"
         ]
     ],
     [
@@ -4924,6 +4891,14 @@
     ],
     [
         [
+            "gucci"
+        ],
+        [
+            "https://rdap.nominet.uk/gucci/"
+        ]
+    ],
+    [
+        [
             "horse"
         ],
         [
@@ -5028,6 +5003,14 @@
     ],
     [
         [
+            "mtn"
+        ],
+        [
+            "https://rdap.nominet.uk/mtn/"
+        ]
+    ],
+    [
+        [
             "now"
         ],
         [
@@ -5040,6 +5023,14 @@
         ],
         [
             "https://rdap.nominet.uk/pay/"
+        ]
+    ],
+    [
+        [
+            "pharmacy"
+        ],
+        [
+            "https://rdap.nominet.uk/pharmacy/"
         ]
     ],
     [
@@ -5766,14 +5757,6 @@
     ],
     [
         [
-            "bbva"
-        ],
-        [
-            "https://tld-rdap.verisign.com/bbva/v1/"
-        ]
-    ],
-    [
-        [
             "bharti"
         ],
         [
@@ -5822,14 +5805,6 @@
     ],
     [
         [
-            "broker"
-        ],
-        [
-            "https://tld-rdap.verisign.com/broker/v1/"
-        ]
-    ],
-    [
-        [
             "capitalone"
         ],
         [
@@ -5858,14 +5833,6 @@
         ],
         [
             "https://tld-rdap.verisign.com/cfa/v1/"
-        ]
-    ],
-    [
-        [
-            "cfd"
-        ],
-        [
-            "https://tld-rdap.verisign.com/cfd/v1/"
         ]
     ],
     [
@@ -5990,26 +5957,10 @@
     ],
     [
         [
-            "forex"
-        ],
-        [
-            "https://tld-rdap.verisign.com/forex/v1/"
-        ]
-    ],
-    [
-        [
             "frontdoor"
         ],
         [
             "https://tld-rdap.verisign.com/frontdoor/v1/"
-        ]
-    ],
-    [
-        [
-            "fujixerox"
-        ],
-        [
-            "https://tld-rdap.verisign.com/fujixerox/v1/"
         ]
     ],
     [
@@ -6214,14 +6165,6 @@
     ],
     [
         [
-            "lupin"
-        ],
-        [
-            "https://tld-rdap.verisign.com/lupin/v1/"
-        ]
-    ],
-    [
-        [
             "macys"
         ],
         [
@@ -6234,14 +6177,6 @@
         ],
         [
             "https://tld-rdap.verisign.com/maif/v1/"
-        ]
-    ],
-    [
-        [
-            "markets"
-        ],
-        [
-            "https://tld-rdap.verisign.com/markets/v1/"
         ]
     ],
     [
@@ -6290,14 +6225,6 @@
         ],
         [
             "https://tld-rdap.verisign.com/name/v1/"
-        ]
-    ],
-    [
-        [
-            "nationwide"
-        ],
-        [
-            "https://tld-rdap.verisign.com/nationwide/v1/"
         ]
     ],
     [
@@ -6362,14 +6289,6 @@
         ],
         [
             "https://tld-rdap.verisign.com/omega/v1/"
-        ]
-    ],
-    [
-        [
-            "onyourside"
-        ],
-        [
-            "https://tld-rdap.verisign.com/onyourside/v1/"
         ]
     ],
     [
@@ -6454,14 +6373,6 @@
     ],
     [
         [
-            "sbs"
-        ],
-        [
-            "https://tld-rdap.verisign.com/sbs/v1/"
-        ]
-    ],
-    [
-        [
             "sca"
         ],
         [
@@ -6518,14 +6429,6 @@
     ],
     [
         [
-            "spreadbetting"
-        ],
-        [
-            "https://tld-rdap.verisign.com/spreadbetting/v1/"
-        ]
-    ],
-    [
-        [
             "swatch"
         ],
         [
@@ -6554,14 +6457,6 @@
         ],
         [
             "https://tld-rdap.verisign.com/tiffany/v1/"
-        ]
-    ],
-    [
-        [
-            "trading"
-        ],
-        [
-            "https://tld-rdap.verisign.com/trading/v1/"
         ]
     ],
     [
@@ -6798,18 +6693,18 @@
     ],
     [
         [
-            "ky"
+            "yahoo"
         ],
         [
-            "https://whois.kyregistry.ky/rdap/"
+            "https://tld-rdap.verisign.com/yahoo/v1/"
         ]
     ],
     [
         [
-            "inc"
+            "ky"
         ],
         [
-            "https://whois.nic.inc/rdap/"
+            "https://whois.kyregistry.ky/rdap/"
         ]
     ],
     [
@@ -6858,10 +6753,7 @@
     [
         [
             "audio",
-            "auto",
             "blackfriday",
-            "car",
-            "cars",
             "christmas",
             "click",
             "country",
