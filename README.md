@@ -4,7 +4,7 @@ A node client that uses the iana RDAP DNS database to lookup WHOIS information f
 
 TLD List comes from: https://data.iana.org/rdap/dns.json
 
-*TLD's last updated on 03/22/2022*
+*TLD's last updated on 06/12/2022*
 
 ## Usage in code
 

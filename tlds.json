@@ -1937,7 +1937,6 @@
             "casino",
             "catering",
             "center",
-            "charity",
             "chat",
             "cheap",
             "church",
@@ -2004,7 +2003,6 @@
             "football",
             "forex",
             "forsale",
-            "foundation",
             "fund",
             "furniture",
             "futbol",
@@ -2012,7 +2010,6 @@
             "gallery",
             "games",
             "gifts",
-            "gives",
             "glass",
             "global",
             "gmbh",
@@ -2188,6 +2185,14 @@
         ],
         [
             "https://rdap.eco.fury.ca/rdap/"
+        ]
+    ],
+    [
+        [
+            "fi"
+        ],
+        [
+            "https://rdap.fi/rdap/rdap/"
         ]
     ],
     [
@@ -3120,6 +3125,14 @@
         ],
         [
             "https://rdap.nic.gay/"
+        ]
+    ],
+    [
+        [
+            "gdn"
+        ],
+        [
+            "https://rdap.nic.gdn/"
         ]
     ],
     [
@@ -5172,58 +5185,19 @@
     ],
     [
         [
-            "ngo"
-        ],
-        [
-            "https://rdap.publicinterestregistry.net/rdap/ngo/"
-        ]
-    ],
-    [
-        [
-            "ong"
-        ],
-        [
-            "https://rdap.publicinterestregistry.net/rdap/ong/"
-        ]
-    ],
-    [
-        [
-            "org"
-        ],
-        [
-            "https://rdap.publicinterestregistry.net/rdap/org/"
-        ]
-    ],
-    [
-        [
-            "xn--c1avg"
-        ],
-        [
-            "https://rdap.publicinterestregistry.net/rdap/xn--c1avg/"
-        ]
-    ],
-    [
-        [
-            "xn--i1b6b1a6a2e"
-        ],
-        [
-            "https://rdap.publicinterestregistry.net/rdap/xn--i1b6b1a6a2e/"
-        ]
-    ],
-    [
-        [
-            "xn--nqv7f"
-        ],
-        [
-            "https://rdap.publicinterestregistry.net/rdap/xn--nqv7f/"
-        ]
-    ],
-    [
-        [
+            "charity",
+            "foundation",
+            "gives",
+            "ngo",
+            "ong",
+            "org",
+            "xn--c1avg",
+            "xn--i1b6b1a6a2e",
+            "xn--nqv7f",
             "xn--nqv7fs00ema"
         ],
         [
-            "https://rdap.publicinterestregistry.net/rdap/xn--nqv7fs00ema/"
+            "https://rdap.publicinterestregistry.org/rdap/"
         ]
     ],
     [
@@ -5491,8 +5465,10 @@
     ],
     [
         [
+            "xn--1qqw23a",
             "xn--55qx5d",
-            "xn--io0a7i"
+            "xn--io0a7i",
+            "xn--xhq521b"
         ],
         [
             "https://restwhois.ngtld.cn/"
