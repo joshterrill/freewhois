@@ -4,7 +4,9 @@ A node client that uses the iana RDAP DNS database to lookup WHOIS information f
 
 TLD List comes from: https://data.iana.org/rdap/dns.json
 
-*TLD's last updated on 06/12/2022*
+To see the status of all RDAP TLD's: https://deployment.rdap.org/
+
+*TLD's last updated on 09/03/2022*
 
 ## Usage in code
 
@@ -31,6 +33,12 @@ async function whoisLookup() {
 ```bash
 $ freewhois "https://www.google.com"
 $ # returns formatted json
+```
+
+## Manually update TLD's
+
+```bash
+npm run update:tlds
 ```
 
 ## License
