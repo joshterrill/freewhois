@@ -1,11 +1,11 @@
 {
     "name": "freewhois",
-    "version": "1.2.4",
+    "version": "1.2.5",
     "description": "A node client that uses the iana RDAP DNS database to lookup WHOIS information for free",
     "main": "index.js",
     "scripts": {
-        "update:tlds": "node update-tlds.js",
         "whois": "node bin/index.js",
+        "update-tlds": "node update-tlds.js",
         "test": "mocha"
     },
     "dependencies": {

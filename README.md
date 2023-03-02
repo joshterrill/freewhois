@@ -38,7 +38,7 @@ $ # returns formatted json
 ## Manually update TLD's
 
 ```bash
-npm run update:tlds
+npm run update-tlds
 ```
 
 ## License
