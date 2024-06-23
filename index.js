@@ -1,5 +1,5 @@
 const fs = require("fs");
-const request = require("request");
+const axios = require("axios");
 
 let dns = [];
 
@@ -30,18 +30,21 @@ function findRDAPUrl(domain) {
 }
 
 async function whois(domain) {
-    return new Promise((resolve, reject) => {
-        let strippedDomain = domain.replace(/^(?:https?:\/\/)?(?:www\.)?/i, "");
-        strippedDomain = trimSlash(strippedDomain);
-        const rdapUrl = findRDAPUrl(strippedDomain);
-        const requestUrl = `${rdapUrl}/domain/${strippedDomain}`;
-        request.get(requestUrl, (err, body, response) => {
-            if (err || response === "" || response === "''") {
-                reject(`Error making WHOIS request for domain: ${domain}`);
-            } else {
-                resolve(JSON.parse(response));
+    return new Promise(async (resolve, reject) => {
+        try {
+            let strippedDomain = domain.replace(/^(?:https?:\/\/)?(?:www\.)?/i, "");
+            strippedDomain = trimSlash(strippedDomain);
+            const rdapUrl = findRDAPUrl(strippedDomain);
+            const requestUrl = `${rdapUrl}/domain/${strippedDomain}`;
+            const response = await axios.get(requestUrl);
+            const { data } = response;
+            if (!data || typeof data !== "object") {
+                throw new Error(`Error making WHOIS request for domain: ${domain}`);
             }
-        });
+            resolve(data);
+        } catch (error) {
+            reject(error);
+        }
     });
     
 }
